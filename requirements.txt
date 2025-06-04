@@ -1,0 +1,10 @@
+beautifulsoup4
+playwright
+pandas
+sqlalchemy
+psycopg2-binary
+langdetect
+textblob
+gensim
+apache-airflow
+dbt-core
