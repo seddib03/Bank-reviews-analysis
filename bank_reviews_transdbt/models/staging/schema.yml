@@ -1,0 +1,15 @@
+
+version: 2
+
+models:
+  - name: stg_reviews
+    description: "Cleaned customer reviews with duplicates removed"
+    columns:
+      - name: bank
+        description: "Bank name"
+        tests:
+          - not_null
+      - name: clean_text
+        description: "Normalized review text (lowercase, no punctuation)"
+        tests:
+          - not_null
