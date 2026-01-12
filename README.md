@@ -1,13 +1,13 @@
-# 🇲🇦 Bank Reviews Analysis in Morocco
-📌 A full data engineering pipeline to analyze customer reviews of Moroccan banks using scraping, NLP, Airflow and PostgreSQL
+# Bank Reviews Analysis in Morocco
+A full data engineering pipeline to analyze customer reviews of Moroccan banks using scraping, NLP, Airflow and PostgreSQL
 
-## 🧠 About the Project
+## About the Project
 This project was created as part of a personal academic initiative to better understand public opinion on banking services in Morocco. By collecting reviews from Google Maps and processing them with modern data tools, this pipeline aims to uncover patterns, satisfaction levels, and customer concerns in different regions.
 
-✅ Project scope: multiple Moroccan cities & banks
-🎓 Tools: Python, Airflow, PostgreSQL, NLP, DBT, Looker Studio
+ Project scope: multiple Moroccan cities & banks
+ Tools: Python, Airflow, PostgreSQL, NLP, DBT, Looker Studio
 
-## 🔍 Objectives
+##  Objectives
 Automatically collect reviews from Google Maps for bank branches across Morocco.
 
 Clean and standardize the raw data.
@@ -18,10 +18,10 @@ Store and organize the data in a PostgreSQL database.
 
 Visualize insights using an interactive dashboard.
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 1. Clone the repository
 
-git clone https://github.com/yourusername/bank-reviews-analysis.git
+git clone https://github.com/seddib03/Bank-reviews-analysis.git
 cd bank-reviews-analysis
 
 2. Set up the environment
@@ -30,7 +30,7 @@ python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 
-## 🌀 ETL Orchestration with Airflow
+##  ETL Orchestration with Airflow
 Apache Airflow is used to schedule and monitor all ETL tasks.
 
 Quick 
@@ -50,7 +50,7 @@ airflow scheduler
 
 Access the UI at: http://localhost:8080
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 | Layer           | Tool                                        |
 | --------------- | ------------------------------------------- |
@@ -63,7 +63,7 @@ Access the UI at: http://localhost:8080
 | Visualization   | Looker Studio                               |
 
 
-## 📊 Dashboard Overview
+##  Dashboard Overview
 The dashboard built with Looker Studio includes:
 
 Sentiment trends by region and by bank
@@ -85,7 +85,7 @@ Here’s a quick preview:
 ![alt text](image-2.png)
 ![alt text](image-3.png)
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
